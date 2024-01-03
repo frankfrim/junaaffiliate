@@ -1,44 +1,40 @@
-body {
-  background-color: #efefef;
+html, body {
+  height:100%;
+  background-image: url(blue-graphene-forming-hexagon-blue-wafer-grid-3d-rendering_648796-205.jpg);
 }
 
-.profile-pic {
-    width: 200px;
-    max-height: 200px;
-    display: inline-block;
+.well {
+  background-color: transparent
 }
 
-.file-upload {
-    display: none;
-}
-.circle {
-    border-radius: 100% !important;
-    overflow: hidden;
-    width: 128px;
-    height: 128px;
-    border: 2px solid rgba(255, 255, 255, 0.2);
-    position: absolute;
-    top: 72px;
-}
-img {
-    max-width: 100%;
-    height: auto;
-}
-.p-image {
-  position: absolute;
-  top: 167px;
-  right: 30px;
-  color: #666666;
-  transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
-}
-.p-image:hover {
-  transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
-}
-.upload-button {
-  font-size: 1.2em;
+#content {
+  padding: 25% 25% 5%;  
 }
 
-.upload-button:hover {
-  transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
-  color: #999;
+.search-form {
+  border-radius: 30px 0 0 30px;
+}
+
+.input-group {
+  width:100%;
+}
+
+input-group-btn {
+  max-width:38px;
+}
+
+#search {
+  border: 1px;
+}
+
+.search-btn {
+  cursor:pointer;
+  border-radius: 0 30px 30px 0; 
+  background-color:#fff;
+  color:#669;
+  
+}
+
+.text-center {
+  color: #fff;
 }
