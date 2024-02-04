@@ -6,18 +6,15 @@
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
     <title>Profile</title>
   </head>
-
-      <script src="https://cdn03.jotfor.ms/static/prototype.forms.js?v=3.3.50360" type="text/javascript"></script>
-<script src="https://cdn01.jotfor.ms/static/jotform.forms.js?v=3.3.50360" type="text/javascript"></script>
-<script src="https://cdn02.jotfor.ms/js/vendor/imageinfo.js?v=3.3.50360" type="text/javascript"></script>
-<script src="https://cdn03.jotfor.ms/file-uploader/fileuploader.js?v=3.3.50360" type="text/javascript"></script>
-<script src="https://cdn01.jotfor.ms/js/punycode-1.4.1.min.js?v=3.3.50360" type="text/javascript" defer></script>
-<script src="https://cdn02.jotfor.ms/js/payments/validategateways.js?v=3.3.50360" type="text/javascript"></script>
-<script src="https://cdn03.jotfor.ms/js/jotStorage.js?v=3.3.50360" type="text/javascript"></script>
-<script src="https://cdn01.jotfor.ms/js/vendor/autoFill.min.js?v=3.3.50360" type="text/javascript"></script>
-<script src="https://cdn01.jotfor.ms/s/umd/14887e58736/for-form-branding-footer.js?v=3.3.50360" type="text/javascript" defer></script>
-<script src="https://cdn02.jotfor.ms/js/vendor/smoothscroll.min.js?v=3.3.50360" type="text/javascript"></script>
-<script src="https://cdn03.jotfor.ms/js/errorNavigation.js?v=3.3.50360" type="text/javascript"></script>
+ <script src="https://cdn03.jotfor.ms/static/prototype.forms.js?v=3.3.50851" type="text/javascript"></script>
+<script src="https://cdn01.jotfor.ms/static/jotform.forms.js?v=3.3.50851" type="text/javascript"></script>
+<script src="https://cdn02.jotfor.ms/js/punycode-1.4.1.min.js?v=3.3.50851" type="text/javascript" defer></script>
+<script src="https://cdn03.jotfor.ms/js/jotStorage.js?v=3.3.50851" type="text/javascript"></script>
+<script src="https://cdn01.jotfor.ms/js/vendor/autoFill.min.js?v=3.3.50851" type="text/javascript"></script>
+<script src="https://cdn01.jotfor.ms/s/umd/6c903a61a90/for-widgets-server.js?v=3.3.50851" type="text/javascript"></script>
+<script src="https://cdn01.jotfor.ms/s/umd/6c903a61a90/for-form-branding-footer.js?v=3.3.50851" type="text/javascript" defer></script>
+<script src="https://cdn02.jotfor.ms/js/vendor/smoothscroll.min.js?v=3.3.50851" type="text/javascript"></script>
+<script src="https://cdn03.jotfor.ms/js/errorNavigation.js?v=3.3.50851" type="text/javascript"></script>
 <script type="text/javascript">	JotForm.newDefaultTheme = true;
 	JotForm.extendsNewTheme = false;
 	JotForm.singleProduct = false;
@@ -27,16 +24,15 @@
 	JotForm.replaceTagTest = true;
 	JotForm.clearFieldOnHide="disable";
 	JotForm.submitError="jumpToFirstError";
-	
+		JotForm.isFullSource = true;
+
 	JotForm.init(function(){
 	/*INIT-START*/
 JotForm.setFullNameAutoFocus(4)
       JotForm.description('input_4', 'Provide Your name as on the National ID card');
     $('input_18').slider({width:'200', maxValue: '100', value: '0'});
+if (window.JotForm && JotForm.accessible) $('input_21').setAttribute('tabindex',0);
       JotForm.alterTexts({"ageVerificationError":"You must be older than {minAge} years old to submit this form.","alphabetic":"This field can only contain letters","alphanumeric":"This field can only contain letters and numbers.","cancelAppointment":"Cancel Appointment","cancelSelection":"Cancel Selection","ccDonationMinLimitError":"Minimum amount is {minAmount} {currency}","ccInvalidCVC":"CVC number is invalid.","ccInvalidExpireDate":"Expire date is invalid.","ccInvalidExpireMonth":"Expiration month is invalid.","ccInvalidExpireYear":"Expiration year is invalid.","ccInvalidNumber":"Credit Card Number is invalid.","ccMissingDetails":"Please fill up the credit card details.","ccMissingDonation":"Please enter numeric values for donation amount.","ccMissingProduct":"Please select at least one product.","characterLimitError":"Too many Characters.  The limit is","characterMinLimitError":"Too few characters. The minimum is","chooseAFile_infoMessage":"Choose a file","confirmClearForm":"Are you sure you want to clear the form","confirmEmail":"E-mail does not match","currency":"This field can only contain currency values.","cyrillic":"This field can only contain cyrillic characters","dateInvalid":"This date is not valid. The date format is {format}","dateInvalidSeparate":"This date is not valid. Enter a valid {element}.","dateLimited":"This date is unavailable.","disallowDecimals":"Please enter a whole number.","doneButton":"Done","doneMessage":"Well done! All errors are fixed.","dragAndDropFilesHere_infoMessage":"Drag and drop files here","email":"Enter a valid e-mail address","error":"Error","fieldError":"field has an error.","fillMask":"Field value must fill mask.","formerSelectedTime":"Former Time","freeEmailError":"Free email accounts are not allowed","generalError":"There are errors on the form. Please fix them before continuing.","generalPageError":"There are errors on this page. Please fix them before continuing.","geoNotAvailableDesc":"Location provider not available. Please enter the address manually.","geoNotAvailableTitle":"Position Unavailable","geoPermissionDesc":"Check your browser's privacy settings.","geoPermissionTitle":"Permission Denied","geoTimeoutDesc":"Please check your internet connection and try again.","geoTimeoutTitle":"Timeout","gradingScoreError":"Score total should only be less than or equal to","incompleteFields":"There are incomplete required fields. Please complete them.","inputCarretErrorA":"Input should not be less than the minimum value:","inputCarretErrorB":"Input should not be greater than the maximum value:","justSoldOut":"Just Sold Out","lessThan":"Your score should be less than or equal to","maxCharactersError":"The number of characters should not be more than the maximum value:","maxDigitsError":"The maximum digits allowed is","maxFileSize_infoMessage":"Max. file size","maxSelectionsError":"The maximum number of selections allowed is ","minCharactersError":"The number of characters should not be less than the minimum value:","minSelectionsError":"The minimum required number of selections is ","multipleError":"There are {count} errors on this page. Please correct them before moving on.","multipleFileUploads_emptyError":"{file} is empty, please select files again without it.","multipleFileUploads_fileLimitError":"Only {fileLimit} file uploads allowed.","multipleFileUploads_minSizeError":"{file} is too small, minimum file size is {minSizeLimit}.","multipleFileUploads_onLeave":"The files are being uploaded, if you leave now the upload will be cancelled.","multipleFileUploads_sizeError":"{file} is too large, maximum file size is {sizeLimit}.","multipleFileUploads_typeError":"{file} has invalid extension. Only {extensions} are allowed.","multipleFileUploads_uploadFailed":"File upload failed, please remove it and upload the file again.","nextButtonText":"Next","noSlotsAvailable":"No slots available","notEnoughStock":"Not enough stock for the current selection","notEnoughStock_remainedItems":"Not enough stock for the current selection ({count} items left)","noUploadExtensions":"File has no extension file type (e.g. .txt, .png, .jpeg)","numeric":"This field can only contain numeric values","oneError":"There is {count} error on this page. Please correct it before moving on.","pastDatesDisallowed":"Date must not be in the past.","pleaseWait":"Please wait...","prevButtonText":"Previous","progressMiddleText":"of","required":"This field is required.","requiredLegend":"All fields marked with * are required and must be filled.","requireEveryCell":"Every cell is required.","requireEveryRow":"Every row is required.","requireOne":"At least one field required.","restrictedDomain":"This domain is not allowed","reviewBackText":"Back to Form","reviewSubmitText":"Review and Submit","seeAllText":"See All","seeErrorsButton":"See Errors","selectedTime":"Selected Time","selectionSoldOut":"Selection Sold Out","slotUnavailable":"{time} on {date} has been selected is unavailable. Please select another slot.","soldOut":"Sold Out","startButtonText":"START","submissionLimit":"Sorry! Only one entry is allowed. Multiple submissions are disabled for this form.","submitButtonText":"Submit","subProductItemsLeft":"({count} items left)","uploadExtensions":"You can only upload following files:","uploadFilesize":"File size cannot be bigger than:","uploadFilesizemin":"File size cannot be smaller than:","url":"This field can only contain a valid URL","validateEmail":"You need to validate this e-mail","wordLimitError":"Too many words. The limit is","wordMinLimitError":"Too few words.  The minimum is"});
-      setTimeout(function() {
-          JotForm.initMultipleUploads();
-      }, 2);
       setTimeout(function() {
           JotForm.autoFillInitialize({"bindChange":"on","menu":"enable","timeout":"4","ttl":"86400"});
       }, 10);
@@ -44,16 +40,16 @@ JotForm.setFullNameAutoFocus(4)
 	});
 
    setTimeout(function() {
-JotForm.paymentExtrasOnTheFly([null,{"name":"heading","qid":"1","text":"Profile Page | Juna Store","type":"control_head"},{"name":"submit2","qid":"2","text":"Sign Juna","type":"control_button"},null,{"description":"Provide Your name as on the National ID card","name":"name","qid":"4","text":"Name","type":"control_fullname"},{"description":"","name":"email","qid":"5","subLabel":"example@example.com","text":"Email","type":"control_email"},null,null,null,{"description":"","name":"address","qid":"9","text":"Address","type":"control_address"},null,{"description":"","name":"phoneNumber11","qid":"11","text":"Phone Number","type":"control_phone"},null,null,null,null,{"description":"","name":"profilePicture","qid":"16","subLabel":"","text":"Profile Picture","type":"control_fileupload"},null,{"description":"","name":"allowNotification","qid":"18","text":"Allow Notification","type":"control_slider"},{"description":"","name":"yourAccount","qid":"19","text":"Your Account Details","type":"control_radio"}]);}, 20); 
+JotForm.paymentExtrasOnTheFly([null,{"name":"heading","qid":"1","text":"Profile Page | Juna Store","type":"control_head"},{"name":"submit2","qid":"2","text":"Sign Juna","type":"control_button"},null,{"description":"Provide Your name as on the National ID card","name":"name","qid":"4","text":"Name","type":"control_fullname"},{"description":"","name":"email","qid":"5","subLabel":"example@example.com","text":"Email","type":"control_email"},null,null,null,{"description":"","name":"address","qid":"9","text":"Address","type":"control_address"},null,{"description":"","name":"phoneNumber11","qid":"11","text":"Phone Number","type":"control_phone"},null,null,null,null,null,null,{"description":"","name":"allowNotification","qid":"18","text":"Allow Notification","type":"control_slider"},{"description":"","name":"yourAccount","qid":"19","text":"Your Account Details","type":"control_radio"},{"name":"typeA","qid":"20","text":"Profile Picture","type":"control_widget"},{"description":"","name":"storeId","qid":"21","subLabel":"","text":"Store ID","type":"control_textbox"}]);}, 20); 
 </script>
-<link type="text/css" rel="stylesheet" href="https://cdn01.jotfor.ms/stylebuilder/static/form-common.css?v=af6bc5e
+<link type="text/css" rel="stylesheet" href="https://cdn01.jotfor.ms/stylebuilder/static/form-common.css?v=6655da3
 "/>
 <style type="text/css">@media print{*{-webkit-print-color-adjust: exact !important;color-adjust: exact !important;}.form-section{display:inline!important}.form-pagebreak{display:none!important}.form-section-closed{height:auto!important}.page-section{position:initial!important}}</style>
-<link type="text/css" rel="stylesheet" href="https://cdn02.jotfor.ms/themes/CSS/5e6b428acc8c4e222d1beb91.css?v=3.3.50360"/>
-<link type="text/css" rel="stylesheet" href="https://cdn03.jotfor.ms/css/styles/payment/payment_styles.css?3.3.50360" />
-<link type="text/css" rel="stylesheet" href="https://cdn01.jotfor.ms/css/styles/payment/payment_feature.css?3.3.50360" />
-<link type="text/css" rel="stylesheet" href="https://cdn02.jotfor.ms/stylebuilder/static/donationBox.css?v=3.3.50360">
-<form class="jotform-form" onsubmit="return typeof testSubmitFunction !== 'undefined' && testSubmitFunction();" action="https://submit.jotform.com/submit/233537375799070" method="post" enctype="multipart/form-data" name="form_233537375799070" id="233537375799070" accept-charset="utf-8" autocomplete="on"><input type="hidden" name="formID" value="233537375799070" /><input type="hidden" id="JWTContainer" value="" /><input type="hidden" id="cardinalOrderNumber" value="" /><input type="hidden" id="jsExecutionTracker" name="jsExecutionTracker" value="build-date-1705605828025" /><input type="hidden" id="submitSource" name="submitSource" value="unknown" /><input type="hidden" id="buildDate" name="buildDate" value="1705605828025" />
+<link type="text/css" rel="stylesheet" href="https://cdn02.jotfor.ms/themes/CSS/5e6b428acc8c4e222d1beb91.css?v=3.3.50851"/>
+<link type="text/css" rel="stylesheet" href="https://cdn03.jotfor.ms/css/styles/payment/payment_styles.css?3.3.50851" />
+<link type="text/css" rel="stylesheet" href="https://cdn01.jotfor.ms/css/styles/payment/payment_feature.css?3.3.50851" />
+<link type="text/css" rel="stylesheet" href="https://cdn02.jotfor.ms/stylebuilder/static/donationBox.css?v=3.3.50851">
+<form class="jotform-form" onsubmit="return typeof testSubmitFunction !== 'undefined' && testSubmitFunction();" action="https://submit.jotform.com/submit/233537375799070" method="post" name="form_233537375799070" id="233537375799070" accept-charset="utf-8" autocomplete="on"><input type="hidden" name="formID" value="233537375799070" /><input type="hidden" id="JWTContainer" value="" /><input type="hidden" id="cardinalOrderNumber" value="" /><input type="hidden" id="jsExecutionTracker" name="jsExecutionTracker" value="build-date-1707074430951" /><input type="hidden" id="submitSource" name="submitSource" value="unknown" /><input type="hidden" id="buildDate" name="buildDate" value="1707074430951" />
   <div role="main" class="form-all">
     <ul class="form-section page-section">
       <li id="cid_1" class="form-input-wide" data-type="control_head">
@@ -64,24 +60,33 @@ JotForm.paymentExtrasOnTheFly([null,{"name":"heading","qid":"1","text":"Profile 
           </div>
         </div>
       </li>
-      <li class="form-line" data-type="control_fileupload" id="id_16"><label class="form-label form-label-top form-label-auto" id="label_16" for="input_16" aria-hidden="false"> Profile Picture </label>
-        <div id="cid_16" class="form-input-wide" data-layout="full">
-          <div class="jfQuestion-fields" data-wrapper-react="true">
-            <div class="jfField isFilled">
-              <div class="jfUpload-wrapper">
-                <div class="jfUpload-container">
-                  <div class="jfUpload-button-container">
-                    <div class="jfUpload-button" aria-hidden="true" tabindex="0" style="display:none" data-version="v2">Browse Files<div class="jfUpload-heading forDesktop">Drag and drop files here</div>
-                      <div class="jfUpload-heading forMobile">Choose a file</div>
-                    </div>
-                  </div>
-                </div>
-                <div class="jfUpload-files-container">
-                  <div class="validate[multipleUpload]"><input type="file" id="input_16" name="q16_profilePicture[]" multiple="" class="form-upload-multiple" data-imagevalidate="yes" data-file-accept="pdf, doc, docx, xls, xlsx, csv, txt, rtf, html, zip, mp3, wma, mpg, flv, avi, jpg, jpeg, png, gif" data-file-maxsize="10854" data-file-minsize="1" data-file-limit="1" data-component="fileupload" aria-label="Browse Files" /></div>
-                </div>
-              </div>
-              <div data-wrapper-react="true"></div>
-            </div><span style="display:none" class="cancelText">Cancel</span><span style="display:none" class="ofText">of</span>
+      <li class="form-line" data-type="control_widget" id="id_20"><label class="form-label form-label-top form-label-auto" id="label_20" for="input_20" aria-hidden="false"> Profile Picture </label>
+        <div id="cid_20" class="form-input-wide" data-layout="full">
+          <div data-widget-name="Profile Upload" style="width:100%;text-align:Left;overflow-x:auto" data-component="widget-field"><iframe data-client-id="5295b800485bd19f5d000005" title="Profile Upload" frameBorder="0" scrolling="no" allowtransparency="true" allow="geolocation; microphone; camera; autoplay; encrypted-media; fullscreen" data-type="iframe" class="custom-field-frame" id="customFieldFrame_20" src="" style="max-width:300px;border:none;width:100%;height:120px" data-width="300" data-height="120"></iframe>
+            <div class="widget-inputs-wrapper"><input type="hidden" id="input_20" class="form-hidden form-widget  " name="q20_typeA" value="" /><input type="hidden" id="widget_settings_20" class="form-hidden form-widget-settings" value="%5B%7B%22name%22%3A%22buttontitle%22%2C%22value%22%3A%22Select%20Image%22%7D%2C%7B%22name%22%3A%22uploadtitle%22%2C%22value%22%3A%22Upload%20Image%22%7D%5D" data-version="2" /></div>
+            <script type="text/javascript">
+              setTimeout(function()
+              {
+                var _cFieldFrame = document.getElementById("customFieldFrame_20");
+                if (_cFieldFrame)
+                {
+                  _cFieldFrame.onload = function()
+                  {
+                    if (typeof widgetFrameLoaded !== 'undefined')
+                    {
+                      widgetFrameLoaded(20,
+                      {
+                        "formID": 233537375799070
+                      })
+                    }
+                  };
+                  _cFieldFrame.src = "//app-widgets.jotform.io/imagepreview/?qid=20&isOpenedInPortal=undefined&align=Left&ref=" +
+                    encodeURIComponent(window.location.protocol + "//" + window.location.host) + '' + '' + '' +
+                    '&injectCSS=' + encodeURIComponent(window.location.search.indexOf("ndt=1") > -1);
+                  _cFieldFrame.addClassName("custom-field-frame-rendered");
+                }
+              }, 0);
+            </script>
           </div>
         </div>
       </li>
@@ -115,6 +120,9 @@ JotForm.paymentExtrasOnTheFly([null,{"name":"heading","qid":"1","text":"Profile 
         <div id="cid_18" class="form-input-wide" data-layout="full">
           <div data-wrapper-react="true"><input type="range" data-component="slider" class="form-textbox" id="input_18" name="q18_allowNotification" /></div>
         </div>
+      </li>
+      <li class="form-line" data-type="control_textbox" id="id_21"><label class="form-label form-label-top form-label-auto" id="label_21" for="input_21" aria-hidden="false"> Store ID </label>
+        <div id="cid_21" class="form-input-wide" data-layout="half"> <input type="text" id="input_21" name="q21_storeId" data-type="input-textbox" class="form-textbox" data-defaultvalue="" style="width:310px" size="310" data-component="textbox" aria-labelledby="label_21" value="" /> </div>
       </li>
       <li class="form-line" data-type="control_radio" id="id_19"><label class="form-label form-label-top form-label-auto" id="label_19" aria-hidden="false"> Your Account Details </label>
         <div id="cid_19" class="form-input-wide" data-layout="full">
